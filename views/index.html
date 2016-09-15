@@ -1,0 +1,64 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Tribute Page!</title>
+    <meta name="description" content="A cool thing made with HyperDev">
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-h21C2fcDk/eFsW9sC9h0dhokq5pDinLNklTKoxIZRUn3+hvmgQSffLLQ4G4l2eEr" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="jumbotron container-fluid">
+      <header class="text-center">
+        <h1>
+          Ayrton Senna
+        </h1>
+        <p>"The São Paulo taxi driver"</p>
+      </header>
+      <figure class="text-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Ayrton_Senna_with_a_Dog.jpg">
+        <figcaption>Ayrton Senna at home in his native Brazil.</figcaption>
+      </figure>
+      <main>
+        <p class="text-center">Here's a time line of Ayrton Senna's life:</p>
+        <ul>
+          <li>1960 - Senna was born in the Pro-Matre Maternity Hospital of Santana, a neighbourhood of São Paulo.</li>
+          <li>1973 - Begins racing in go-karts.</li>
+          <li>1977 - Wins the South American Kart Championship.</li>
+          <li>1981 - Moves to England and wins RAC and Townsend-Thoreson Formula Ford 1600 Championships.</li>
+          <li>1982 - Wins British and European Formula Ford 2000 championships.</li>
+          <li>1984 - First podium in Formula One with Toleman Motorsport.</li>
+          <li>1985 - Signs with Lotus and gets the first 'Grand Slam'.</li>
+          <li>1988 - Signs with McLaren and wins his first Formula One world championship title.</li>
+          <li>1991 - Becomes the  the youngest ever three-time world champion.</li>
+          <li>1994 - Dies due to an accident on the track of San Marino Grand Prix aged 34.</li>
+        </ul>
+        <p class="text-center wiki">If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Ayrton_Senna" target="_blank">Wikipedia</a> entry.</p>
+      </main>
+    </div>
+    <footer>
+      <a href="https://hyperdev.com">
+        Remix this in HyperDev
+      </a>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="/client.js"></script>
+
+  </body>
+</html>

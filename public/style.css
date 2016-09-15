@@ -1,0 +1,21 @@
+.jumbotron {
+  width: 1054px;
+  margin: 10px auto;
+}
+
+figure {
+  padding: 40px 0px;
+}
+
+main ul {
+  width: 580px;
+  margin: 5px auto;
+}
+
+main li {
+  padding: 3px;
+}
+
+.wiki {
+  padding-top: 40px;
+}
